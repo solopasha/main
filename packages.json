@@ -20,10 +20,8 @@
                 "libheif-freeworld",
                 "libheif-tools",
                 "libratbag-ratbagd",
-                "libva-intel-driver",
                 "libva-utils",
                 "lshw",
-                "mesa-va-drivers-freeworld",
                 "net-tools",
                 "google-noto-sans-javanese-fonts",
                 "google-noto-sans-balinese-fonts",
@@ -33,7 +31,6 @@
                 "openrgb-udev-rules",
                 "openssl",
                 "podman-compose",
-                "pipewire-codec-aptx",
                 "smartmontools",
                 "symlinks",
                 "tcpdump",
@@ -206,8 +203,7 @@
                 "libavutil-free",
                 "libpostproc-free",
                 "libswresample-free",
-                "libswscale-free",
-                "mesa-va-drivers"
+                "libswscale-free"
             ],
             "kinoite": [
                 "ffmpegthumbnailer",
@@ -242,7 +238,7 @@
                 "f38-backgrounds-extras-mate",
                 "f38-backgrounds-mate"
             ],
-            "kinoite":[
+            "kinoite": [
                 "xwaylandvideobridge"
             ]
         },

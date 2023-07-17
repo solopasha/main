@@ -12,8 +12,7 @@ ADD build.sh /tmp/build.sh
 ADD post-install.sh /tmp/post-install.sh
 ADD packages.json /tmp/packages.json
 
-COPY --from=ghcr.io/ublue-os/config:latest /rpms /tmp/rpms
-COPY --from=ghcr.io/ublue-os/akmods:${FEDORA_MAJOR_VERSION} /rpms /tmp/akmods-rpms
+COPY --from=ghcr.io/solopasha/config:latest /rpms /tmp/rpms
 
 RUN /tmp/build.sh
 RUN /tmp/post-install.sh
